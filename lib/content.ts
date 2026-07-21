@@ -6,7 +6,7 @@ export const profile = {
   location: "6th of October, Giza Governorate, Egypt",
   resume: "/Mohamed-Gaber-Resume.pdf",
   summary:
-    "Mobile App Developer building cross-platform iOS and Android apps with React Native, Expo, and TypeScript. I ship production apps end-to-end: clean native UI and satisfying UX, Supabase/Postgres backends, Clerk auth, and RevenueCat monetization — with a focus on performance andreliability.",
+    "Mobile App Developer building cross-platform iOS and Android apps with React Native, Expo, and TypeScript. I ship production apps end-to-end: clean native UI and satisfying UX, Supabase/Postgres backends, Clerk auth, and RevenueCat monetization, with a focus on performance andreliability.",
 };
 
 /**
