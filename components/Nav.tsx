@@ -28,7 +28,7 @@ export function Nav() {
             download
             className="border-border hover:border-accent hover:text-accent ml-1 hidden rounded-lg border px-3 py-1.5 text-sm font-medium transition-colors sm:inline-block"
           >
-            Résumé
+            CV
           </a>
         </div>
       </nav>

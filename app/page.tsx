@@ -27,7 +27,7 @@ export default function Home() {
               download
               className="bg-accent rounded-lg px-5 py-2.5 text-sm font-semibold text-white transition-opacity hover:opacity-90"
             >
-              Download résumé
+              Download CV
             </a>
             <a
               href={`mailto:${profile.email}`}
@@ -37,17 +37,17 @@ export default function Home() {
             </a>
           </div>
 
-          <p className="text-muted mt-8 text-sm">
+          {/* <p className="text-muted mt-8 text-sm">
             {profile.location} · 4 apps shipped to the App Store
-          </p>
+          </p> */}
         </section>
 
         {/* Work */}
         <section id="work" className="border-border border-t py-16 sm:py-20">
-          <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">Selected work</h2>
-          <p className="text-muted mt-2">
+          <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">Projects</h2>
+          {/* <p className="text-muted mt-2">
             Production apps I designed, built, and shipped end-to-end.
-          </p>
+          </p> */}
 
           <div className="mt-10 space-y-5">
             {projects.map((project) => (

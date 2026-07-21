@@ -6,7 +6,7 @@ export const profile = {
   location: "6th of October, Giza Governorate, Egypt",
   resume: "/Mohamed-Gaber-Resume.pdf",
   summary:
-    "Mobile App Developer building cross-platform iOS and Android apps with React Native, Expo, and TypeScript. I ship production apps end-to-end — AI/LLM features, Supabase/Postgres backends, Clerk auth, and RevenueCat monetization — with a focus on clean UI, reliability, and App Store deployment.",
+    "Mobile App Developer building cross-platform iOS and Android apps with React Native, Expo, and TypeScript. I ship production apps end-to-end: clean native UI and satisfying UX, Supabase/Postgres backends, Clerk auth, and RevenueCat monetization — with a focus on performance andreliability.",
 };
 
 /**
@@ -83,11 +83,10 @@ export const projects: Project[] = [
     category: "Productivity",
     icon: "/apps/koligo.jpg",
     accent: "#3aa0e0",
-    stack: ["React Native", "SQLite", "Supabase", "RevenueCat", "Sentry"],
+    stack: ["React Native", "SQLite", "Supabase", "RevenueCat"],
     highlights: [
       "Built and shipped a cross-platform personal-CRM app in React Native (Expo Router, React 19, Reanimated, NativeWind), backed by a local-first SQLite store synced to a Supabase/Postgres backend.",
       "Implemented Apple & Google sign-in and a freemium model using RevenueCat subscriptions with a server-verified “Plus” entitlement to gate premium features.",
-      "Added Sentry crash monitoring and EAS over-the-air updates for production releases.",
     ],
     ios: {
       status: "live",
@@ -123,9 +122,9 @@ export const projects: Project[] = [
 
 export const skillGroups = [
   { label: "Languages", items: ["TypeScript", "JavaScript", "SQL", "HTML/CSS"] },
-  { label: "Mobile", items: ["React Native", "Expo", "EAS", "NativeWind", "Redux", "Reanimated"] },
+  { label: "Libraries/frameworks & tools", items: ["React Native", "Expo", "EAS", "NativeWind", "Redux", "Reanimated"] },
   { label: "Backend & Data", items: ["Supabase", "PostgreSQL", "SQLite", "REST APIs", "Clerk"] },
-  { label: "AI & Delivery", items: ["LLM/AI Integration", "RevenueCat", "Sentry", "Git", "App Store Deployment"] },
+  { label: "AI & Delivery", items: ["LLM/AI Integration", "RevenueCat", "Git", "App Store Deployment"] },
 ];
 
 export const education = {
