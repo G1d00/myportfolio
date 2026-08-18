@@ -74,7 +74,10 @@ export const projects: Project[] = [
       status: "live",
       url: "https://apps.apple.com/eg/app/hinty-ai-game-guides-hints/id6773489237",
     },
-    android: { status: "placeholder" },
+    android: {
+      status: "live",
+      url: "https://play.google.com/store/apps/details?id=com.g1d00.Hinty",
+    },
   },
   {
     slug: "koligo",
